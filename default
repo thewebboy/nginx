@@ -1,0 +1,16 @@
+server {
+
+	server_name  localhost;
+
+       location / {	
+
+	root /home/rishi/Documents/angularApps/assignment-05;
+	index index.html;
+
+                  }
+
+         error_page  404   /404.html;
+
+	 error_page  500   /500.html;
+
+}
